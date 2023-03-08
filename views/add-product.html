@@ -10,10 +10,17 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Add Product</a></li>
+          <li><a href="/">Shop</a></li>
+          <li><a href="/add-product">Add Product</a></li>
+          <li><a href="/store-product">store Product</a></li>
         </ul>
       </nav>
     </header>
+    <main>
+      <form action="/add-product" method="POST">
+        <input type="text" value="product" />
+        <button>Add Product</button>
+      </form>
+    </main>
   </body>
 </html>
